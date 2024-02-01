@@ -29,6 +29,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Issues: 
 
--- Bug in or sidebar component 
--- CSS Not working properly --> Focus on this first 
+-- Implement sidebaritem component (make it modular and reusable)
+-- Find and download assets!    
+    - Home
+    - Explor
+    - Notifications
+    - Messages 
+    - bookmarks
+    - lsits
+    - [profile]
+    - More 
 
