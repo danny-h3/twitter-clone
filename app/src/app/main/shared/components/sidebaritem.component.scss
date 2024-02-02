@@ -10,8 +10,8 @@
     
     cursor: pointer;
     transition-property: color, background-color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;
 
     &:hover {
         background: rgba(0, 0, 0, 0.1); // 10% opacity 

@@ -22,3 +22,7 @@
     margin-top: 0.5rem;
     max-width: 230px;
 }
+
+img {
+    filter: invert(96%) sepia(96%) saturate(0%) hue-rotate(134deg) brightness(103%) contrast(107%);
+}
