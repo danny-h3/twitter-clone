@@ -1,5 +1,5 @@
 export interface SidebarItems {
-    label: string; 
+    label?: string; 
     route?: string; 
     icon?: string; 
     isActive?: string;

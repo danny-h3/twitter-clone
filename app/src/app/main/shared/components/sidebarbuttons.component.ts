@@ -7,11 +7,18 @@ import { SidebarItems } from '../../interface'
   templateUrl: './sidebarbuttons.component.html',
   styleUrl: './sidebarbuttons.component.scss'
 })
+
+// SidebarButtons renders all items given in the array below 
 export class SidebarButtonsComponent {
   items: Array<SidebarItems> = [
     {
+      label: '',
+      route: '/', 
+      icon: '../../../../assets/icons/twitter.svg'
+    },
+    {
       label: 'Explore',
-      route: '/',
+      route: '/explore',
       icon: '../../../../assets/icons/explore.svg'
     },
     {

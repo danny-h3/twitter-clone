@@ -1,37 +1,55 @@
 
-.sidebar-items {
+.items {
     margin-top: 0.5rem;
     max-width: 230px;
 }
 
 img {
+    // Make svg white since they are default black 
     filter: invert(96%) sepia(96%) saturate(0%) hue-rotate(134deg) brightness(103%) contrast(107%);
 }
 
-form {
+.item-button {
     background-color: transparent;
-    border-radius: 100px;
+    border-radius: 9999px;
 }
 
-.item {
-
-    padding: 4px;
-    border: none; 
-    border-radius: 100px;
-    background-color: transparent;
-
-
+button {
     display: flex;
+    flex-shrink: 0; // Make sure items inside dont strink
     align-items: center;
     justify-content: center;
 
-    cursor: pointer;
-    transition-property: color, background-color;
-    transition-timing-function: ease-in-out;
-    transition-duration: 200ms;
+    color: white;
+    background-color: inherit;
 
+    border: none; 
+    border-radius: inherit;
+    
+    padding: 0px 10px 0px; 
+
+    cursor: pointer;
+    transition-property: color, background-color, scale;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+    
+
+    img {
+        height: 30px;
+        width: 30px;
+    }
+
+    p {
+        font-family: 'Roboto'; 
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    
+    // On Hover transition  
     &:hover {
-        background: rgba(0, 0, 0, 0.1); // 10% opacity 
+        transform: scale(1.05);
+        background: rgba(0, 0, 0, 0.1); // 10% opacity
         background-color: rgb(147 197 253);
     }
 }
+
