@@ -1,0 +1,8 @@
+<div class="items" *ngFor="let item of items">
+    <form action="item.route">
+        <button>
+            <img src="{{item.icon}}" alt="{{item.label}}">
+            {{item.label}}
+        </button>
+    </form>
+</div>

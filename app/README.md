@@ -29,14 +29,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Issues: 
 
--- Implement sidebaritem component (make it modular and reusable)
--- Find and download assets!    
-    - Home
-    - Explor
-    - Notifications
-    - Messages 
-    - bookmarks
-    - lsits
-    - [profile]
-    - More 
+-- Current implementation of side bar isn't as modular as i would like, need to change the sidebar items into button components some how
 
+SideBarButton Component: 
+<button> ng-content </button>
+
+ng-content:  
+<div> 
+    <a/> --> Link to a different page or component in this case
+    <img/> --> Image for button 
+    <p/> --> Text for button 
+</div> 
+ 
+ -- Check out ngFor + having a Interface folder 
+ 
+  

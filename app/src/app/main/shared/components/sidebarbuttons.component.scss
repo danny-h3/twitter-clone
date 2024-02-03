@@ -1,13 +1,30 @@
+
+.sidebar-items {
+    margin-top: 0.5rem;
+    max-width: 230px;
+}
+
+img {
+    filter: invert(96%) sepia(96%) saturate(0%) hue-rotate(134deg) brightness(103%) contrast(107%);
+}
+
+form {
+    background-color: transparent;
+    border-radius: 100px;
+}
+
 .item {
-    height: 56px;
-    width: 56px;
+
     padding: 4px;
-    border-radius: 9999px;
+    border: none; 
+    border-radius: 100px;
+    background-color: transparent;
+
 
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     cursor: pointer;
     transition-property: color, background-color;
     transition-timing-function: ease-in-out;
