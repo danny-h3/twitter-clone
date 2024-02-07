@@ -14,6 +14,8 @@ export class HeaderComponent {
   constructor(private router: Router) {}
 
   back(): void {
-    (<any>this.router).navigate(['/']);
+    this.router.navigate(['/']);
   }
+
+  
 }

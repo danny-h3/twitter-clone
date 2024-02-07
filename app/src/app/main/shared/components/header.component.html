@@ -1,8 +1,8 @@
 <div class="header">
     <div class="header-container">
-        <span class="back-arrow">
+        <span *ngIf="showBackArrow" class="back-arrow" (click)="back()">
             <img src="../../../../assets/icons/back-arrow.svg" alt="">
         </span> 
-        <h1 class="header-text">Home</h1>
+        <h1 class="header-text">{{title}}</h1>
     </div>
 </div>
