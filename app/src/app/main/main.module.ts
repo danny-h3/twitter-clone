@@ -6,6 +6,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { SidebarComponent } from './shared/components/sidebar.component';
 import { SidebarButtonsComponent } from './shared/components/sidebarbuttons.component';
 import { HeaderComponent } from './shared/components/header.component';
+import { FollowbarComponent } from './shared/components/followbar.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { HeaderComponent } from './shared/components/header.component';
     SidebarComponent,
     SidebarButtonsComponent,
     HeaderComponent,
+    FollowbarComponent,
   ],
   imports: [
     CommonModule,
