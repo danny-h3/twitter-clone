@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Router } from 'express';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,13 +7,13 @@ import { Router } from 'express';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  // @Input() showBackArrow: boolean = false; 
-  // @Input() title: string = ""; 
+  @Input() showBackArrow: boolean = false; 
+  @Input() title: string = ""; 
 
-  // // Create a router to allow back arrow to navigate to previous view
-  // constructor(private router: Router) {}
+  // Create a router to allow back arrow to navigate to previous view
+  constructor(private router: Router) {}
 
-  // back(): void {
-
-  // }
+  back(): void {
+    (<any>this.router).navigate(['/']);
+  }
 }
