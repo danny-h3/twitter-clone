@@ -13,14 +13,14 @@
     background-color: #262626;
     border-radius: 12px; 
     padding: 4px;
+
+    .followbar-header { 
+        color: white;
+        font-size: x-large;
+        font-weight: 600;
+    }
 }
 
-
-.followbar-header { 
-    text-decoration: white;
-    font-size: x-large;
-    font-weight: 600;
-}
 
 
 .followbar-subcontainer {
@@ -35,7 +35,7 @@
     flex-direction: column;
 
     .name {
-        text-decoration: white;
+        color: white;
         font-weight: 600;
         font-size: small;
     }
@@ -43,6 +43,6 @@
 
 
 .username {
-    text-decoration: white;
+    color: white;
     font-size: small;
 }

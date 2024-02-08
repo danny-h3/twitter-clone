@@ -7,6 +7,7 @@ import { SidebarComponent } from './shared/components/sidebar.component';
 import { SidebarButtonsComponent } from './shared/components/sidebarbuttons.component';
 import { HeaderComponent } from './shared/components/header.component';
 import { FollowbarComponent } from './shared/components/followbar.component';
+import { AvatarComponent } from './shared/components/avatar.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FollowbarComponent } from './shared/components/followbar.component';
     SidebarButtonsComponent,
     HeaderComponent,
     FollowbarComponent,
+    AvatarComponent,
   ],
   imports: [
     CommonModule,
