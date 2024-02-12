@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'Avatar',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './avatar.component.scss'
 })
 export class AvatarComponent {
-
-}
+  @Input() userId: string = "12340";
+  @Input() isLarge: boolean = false; 
+  @Input() hasBorder: boolean = false; 
+} 
