@@ -1,8 +1,0 @@
-<div class="items" *ngFor="let item of items">
-    <form [ngClass]="{'text-decoration: white':!item.isActive}" class="item-button" action="item.route">
-        <button>
-            <img src="{{item.icon}}" alt="{{item.label}}">
-            <p *ngIf="item.label" > {{item.label}} </p>
-        </button>
-    </form>
-</div>

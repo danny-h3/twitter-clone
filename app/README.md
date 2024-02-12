@@ -29,7 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Issues: 
 
--- Not optimized for mobile view yet [ Work on this part later ]
--- Components folder is getting a bit messy [ Work on this part later]
--- Add Tweet Button 
-
+-- First fixing sidebar 

@@ -41,21 +41,6 @@
 
 .sub-container { 
     height: 100%;
-    display: grid; // Set grid layout
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    // Repeat pattern 4 times, min size of column = 0, each column will take equal space 
 }
 
-// Define default for this container 
-.postbar-container {
-    display: grid;
-    grid-column: span 3 / span 3;
-    border-width: 0px 1px 0px 1px;
-    border-style: solid;
-    border-color: grey; 
-
-    @include desktop-screen {
-        grid-column: span 2 / span 2;
-    }
-}
 

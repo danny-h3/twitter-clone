@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { SidebarItems } from '../../interface'
-
+import { SidebarItems } from '../../../interface'; 
 
 @Component({
   selector: 'app-sidebarbuttons',
@@ -8,13 +7,17 @@ import { SidebarItems } from '../../interface'
   styleUrl: './sidebarbuttons.component.scss'
 })
 
-// SidebarButtons renders all items given in the array below 
-export class SidebarButtonsComponent {
+export class SidebarbuttonsComponent {
   items: Array<SidebarItems> = [
     {
       label: '',
       route: '/', 
       icon: '../../../../assets/icons/twitter.svg'
+    },
+    {
+      label: 'Home',
+      route: '/', 
+      icon: '../../../../assets/icons/home.svg'
     },
     {
       label: 'Explore',
@@ -52,4 +55,4 @@ export class SidebarButtonsComponent {
       icon: '../../../../assets/icons/more.svg', 
     }
   ]
-  }
+}

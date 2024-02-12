@@ -1,0 +1,23 @@
+<div class="button-container">
+    
+    <!-- Action Buttons  -->
+    <div class="nav-button" *ngFor="let item of items">
+        <form action="item.route">
+            <button>
+                <img src="{{item.icon}}" alt="{{item.label}}">
+                <p *ngIf="item.label">{{item.label}}</p>
+            </button>
+        </form>
+    </div>
+
+    <!-- Log out Button -->
+    <div class="log-out">
+        <form action="">
+            <button>
+                <img src="'../../../../assets/icons/log-out.svg'" alt="Log out">
+                <p> Log Out </p>
+            </button>
+        </form>
+    </div>
+
+</div>
